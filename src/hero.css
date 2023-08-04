@@ -1,0 +1,68 @@
+.bg {
+  background-color: #222;
+  width: 90%;
+  margin: auto;
+  height: 80vh;
+  margin-top: 2rem !important;
+}
+
+.hero .name {
+  padding-top: 5rem;
+  color: #0482f7;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 900;
+}
+.hero .titleh2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero .btn {
+  background-color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  margin: auto;
+  margin-top: 10rem;
+  padding: 1.5rem;
+}
+
+.hero .btn a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .hero .name {
+    font-size: 3.5rem;
+
+    font-weight: 700;
+  }
+  .hero .titleh2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .hero .btn {
+    margin-top: 6rem;
+    width: 13rem;
+    margin-top: 10rem;
+  }
+  .hero .btn a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero {
+    margin-top: 2rem !important;
+  }
+
+  .writeup {
+    padding-top: 12rem;
+  }
+}

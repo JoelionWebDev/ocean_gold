@@ -1,0 +1,34 @@
+.nav-center {
+  /* width: 100%;
+  background-color: #e9e8f3; */
+  height: 5rem;
+
+  /* z-index: 100;  */
+  width: 100%;
+  height: 5rem;
+  position: fixed;
+  background-color: hsl(205, 100%, 96%);
+  z-index: 100 !important;
+  margin-top: -2rem;
+}
+
+/* .positionFixed {
+  z-index: 101;
+} */
+
+.navBrand {
+  padding-top: 0.4rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navBrand img {
+  margin-left: 1rem;
+}
+
+@media (max-width: 800px) {
+  .positionFixed ul a {
+    color: #fff;
+  }
+}

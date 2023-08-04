@@ -1,0 +1,83 @@
+.about_hero {
+  background-image: url(../asset/gold.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  margin-top: 2rem;
+  height: 18rem;
+}
+.about_h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 800;
+  padding-top: 6rem;
+}
+.about_hero p {
+  color: #222;
+  text-align: center;
+}
+.about_container h3 {
+  text-align: center;
+  color: #111;
+  font-weight: 400;
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+}
+.about_container .img {
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+}
+.about_container .img img {
+  width: 100%;
+  margin: auto;
+  margin-left: 0.5rem;
+  height: 30vh;
+}
+
+.mv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  width: 90%;
+  margin: auto;
+}
+.mv p {
+  text-align: center;
+}
+.ceo {
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+  margin: auto;
+}
+.ceo h4 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.ceo p {
+  margin-top: -1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.ceo img {
+  width: 10rem;
+  border-radius: 50%;
+}
+@media (max-width: 800px) {
+  .about_container h3 {
+    width: 80%;
+  }
+  .mv {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+@media (max-width: 350px) {
+  .about_container .img img {
+    height: 20vh;
+  }
+}

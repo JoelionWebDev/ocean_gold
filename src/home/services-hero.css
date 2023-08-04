@@ -1,0 +1,138 @@
+.bg {
+  background-color: #222;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  z-index: 1;
+}
+.name {
+  margin-bottom: 5rem;
+}
+.line {
+  width: 0.6rem;
+  margin: auto;
+  background-color: gold;
+  height: 60vh;
+}
+.cover h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+.left {
+  width: 30%;
+  position: absolute;
+  margin-top: -22rem;
+  margin-left: 1rem;
+}
+.left h4 {
+  border: 2px solid #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: gold;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+.number {
+  text-align: center;
+  color: #fff !important;
+}
+.left h3 {
+  border: 1px solid gold;
+  color: #fff;
+  border-radius: 10px;
+}
+.left img {
+  margin-top: -0rem;
+  margin-left: 107%;
+}
+.hero .btn a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.right {
+  width: 22rem;
+  margin-top: -22rem;
+  position: absolute;
+  margin-left: 50%;
+}
+.right h4 {
+  color: gold;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.service {
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+.service p {
+  color: #fff;
+  padding-left: 1.5rem;
+}
+.hide address {
+  font-size: 1.8rem;
+  line-height: 1rem;
+  color: #fff;
+}
+@media (max-width: 1200px) {
+  .right {
+    width: 18rem;
+  }
+  .right h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .hero .name {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    margin-top: -8rem;
+  }
+  .hide {
+    display: none;
+  }
+  .right {
+    width: 80%;
+    margin-top: 8rem;
+    position: absolute;
+    margin-left: 1rem;
+  }
+  .left {
+    width: 80%;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .left h3 {
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: -4.5rem;
+  }
+
+  .bg {
+    background-color: #222;
+    width: 100%;
+    margin: auto;
+    height: 120vh;
+    z-index: 1;
+  }
+}
+@media (max-width: 680px) {
+  .hero {
+    margin-top: 2rem !important;
+  }
+
+  .writeup {
+    padding-top: 12rem;
+  }
+}
+@media (max-width: 350px) {
+  .hero .name {
+    font-size: 2rem;
+  }
+}

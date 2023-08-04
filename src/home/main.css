@@ -1,0 +1,59 @@
+.mainsection {
+  width: 90%;
+  margin: auto;
+}
+.ref {
+  height: 50% !important;
+}
+.oilandgas {
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #fff;
+}
+.oilandgas p {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.oilandgas h3 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+.section2 {
+  margin-top: 1.5rem;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  border: 4px solid #fff;
+  width: 100%;
+  gap: 2rem;
+  /* padding-top: 5rem; */
+}
+.flex {
+  display: flex;
+}
+.img {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.about h2 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.about h2 span {
+  color: rgb(4, 247, 194);
+}
+.featured h2 span {
+  color: rgb(4, 247, 194);
+}
+.featured h2 {
+  padding-top: 3rem;
+}
+
+@media (max-width: 800px) {
+  .img {
+    flex-direction: column;
+  }
+  .img img {
+    width: 100% !important;
+  }
+}

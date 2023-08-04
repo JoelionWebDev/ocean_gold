@@ -1,0 +1,60 @@
+/* .bg {
+  background-color: #222;
+  width: 90%;
+  margin: auto;
+  height: 120vh;
+  z-index: 1;
+}
+
+.line {
+  width: 0.6rem;
+  margin: auto;
+  background-color: gold;
+  height: 65vh;
+}
+.cover h5 {
+  color: #fff;
+  text-align: center;
+}
+.left {
+  width: 30%;
+  position: absolute;
+  margin-top: -25rem;
+}
+.left p {
+  border: 2px solid #fff;
+  color: gold;
+  border-radius: 10px;
+}
+.number {
+  text-align: center;
+  color: #fff !important;
+}
+.left h3 {
+  border: 1px solid gold;
+  color: #fff;
+  border-radius: 10px;
+}
+.left img {
+  margin-top: -5rem;
+  margin-left: 107%;
+}
+.hero .btn a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.right {
+  width: 25rem;
+  margin-top: -22rem;
+  position: absolute;
+  margin-left: 50%;
+}
+.right h3 {
+  color: gold;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+} */

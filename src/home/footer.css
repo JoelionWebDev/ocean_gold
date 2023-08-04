@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 5rem;
+  width: 100%;
+  background-color: hsl(253, 89%, 15%);
+  color: #fff;
+}
+
+.footer .flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  padding-bottom: 2rem;
+  width: 90%;
+  margin: auto;
+  padding-top: 2rem;
+}
+hr {
+  padding-bottom: 1.5rem;
+}
+.flexicons {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  justify-self: flex-end;
+}
+.flexicons a {
+  color: #fff;
+}
+
+.footer p,
+h2 {
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .footer .flex {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .flexicons {
+    gap: 1rem;
+  }
+  .flexicons a {
+    font-size: 1.5rem;
+  }
+}
