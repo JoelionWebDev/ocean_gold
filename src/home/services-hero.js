@@ -33,9 +33,12 @@ const service_hero = () => {
               </div>
               <div className="service">
                 <h4>• Financial Marketing</h4>
-                <p>
-                  . Bank instrument <br /> . Forex <br />. Efex
-                </p>
+
+                <ul>
+                  <li>Bank instrument</li>
+                  <li>Forex</li>
+                  <li>Efex</li>
+                </ul>
               </div>
               <div className="service">
                 <h4>• Travels and Tour.</h4>

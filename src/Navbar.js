@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="nav-center">
           <div className="navBrand">
             <NavLink to="/" style={navStyle}>
-              <img src={Img1} alt="missing" width="100vw" />
+              <img src={Img1} alt="missing" width="50vw" />
             </NavLink>
 
             <div className="nav-header">

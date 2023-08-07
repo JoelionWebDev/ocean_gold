@@ -42,10 +42,10 @@ const Services = () => {
             multifaceted services.
           </p>
           <ul>
-            <li>. Oil and Gas</li>
-            <li>. Solid Minerals</li>
-            <li>. Financial Marketing/Financial Trading/Bank Instrument.</li>
-            <li>. Travels and Tour.</li>
+            <li> Oil and Gas</li>
+            <li> Solid Minerals</li>
+            <li> Financial Marketing/Financial Trading/Bank Instrument.</li>
+            <li> Travels and Tour.</li>
           </ul>
           {/* <p>
             This name was driven from an inspiration traceable to the gold in
@@ -88,12 +88,12 @@ const Services = () => {
             </p>
             <h4>We deal with all other petroleum products,</h4>
             <ul>
-              <li>. AGO</li>
-              <li>. DPK</li>
-              <li>. PMS,</li>
-              <li>. Low Poor Fuel Oil (LPFO)</li>
-              <li>. Jet AI Aviation Oil (etc)</li>
-              <li>. Bitumen,</li>
+              <li> AGO</li>
+              <li> DPK</li>
+              <li> PMS,</li>
+              <li> Low Poor Fuel Oil (LPFO)</li>
+              <li> Jet AI Aviation Oil (etc)</li>
+              <li> Bitumen,</li>
             </ul>
             In a nutshell whatever product you need in oil/ petroleum product we
             are available to give you satisfactory service.
@@ -103,9 +103,9 @@ const Services = () => {
           <h3>Financial Market Trading </h3>
           <p>
             Ocean Gold Investment limited is also into financial market trading
-            as one of our major Enterprice.
+            as one of our major Enterprise.
             <br /> Our area of concentration in the financial market is Forex,
-            Efex, Financial Instrument, Buieau dechange. (SBLC/LC inclusive) ;
+            Efex, Financial Instrument. (SBLC/LC inclusive) ;
           </p>
           <p>
             We trade on banking instruments, we both provide and also receive.
@@ -127,15 +127,17 @@ const Services = () => {
             </div>
           </div>
           <h3>Our Services</h3>
-          <p>
-            . Bank Guarantee (BG) <br />. Block Fund (BF) <br />. Post No Debit
-            (PND) <br />
-            . Bank Draft <br />. Bank Endorsed Cheque (BEC) <br />. Letter of
-            Credit (LC) <br />
-            . Standby Letter of Credit (SBLC) <br />
-            In a nutshell we deal in every aspect of financial trading, Bank
-            instrument trading etc. as consultant.
-          </p>
+          <ul>
+            <li> Bank Guarantee (BG)</li>
+            <li>Block Fund (BF)</li>
+            <li>Post No Debit (PND)</li>
+            <li>Bank Draft</li>
+            <li>Bank Endorsed Cheque (BEC)</li>
+            <li>Letter of Credit (LC)</li>
+            <li>Standby Letter of Credit (SBLC)</li>
+          </ul>
+          In a nutshell we deal in every aspect of financial trading, Bank
+          instrument trading etc. as consultant.
         </section>
         <div className="featured">
           <div className="img">

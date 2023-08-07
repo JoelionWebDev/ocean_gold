@@ -50,13 +50,13 @@ const main = () => {
               multifaceted services which are as follow.
             </p>
             <ul>
-              <li>. Oil and Gas</li>
-              <li>. Solid Minerals</li>
+              <li> Oil and Gas</li>
+              <li> Solid Minerals</li>
               <li>
-                . Financial Marketing: Bank Instrument trading locally and
-                internationally
+                Financial Marketing/Bank Instrument trading local and foreign
+                instruments.
               </li>
-              <li>. Travels and Tour.</li>
+              <li> Travels and Tour.</li>
             </ul>
           </div>
 
@@ -124,7 +124,6 @@ const main = () => {
             <img src={img5} width="50%" alt="" />
           </div>
 
-          <h3>Tantalite Ore</h3>
           <div className="img">
             <img src={tanta1} width="50%" alt="" />
             <img src={tanta2} width="50%" alt="" />
@@ -172,16 +171,16 @@ const main = () => {
             <img className="" src={chq4} width="50%" alt="null" />
           </div>
         </div>
-        <p>
-          . Bank Guarantee (BG) <br />. Block Fund (BF) <br /> . Post No Debit
-          (PND) <br />
-          . Draft Bank Endorsed Cheque (BEC) <br /> . Letter of Credit (LC){" "}
-          <br />
-          . Standby Letter of Credit (SBLC) <br />
-          In a nutshell we deal in every aspect of financial trading, Bank
-          instrument trading etc. as consultant.
-        </p>
-
+        <ul>
+          <li>Bank Guarantee (BG)</li>
+          <li>Block Fund (BF)</li>
+          <li>Post No Debit (PND)</li>
+          <li>Draft Bank Endorsed Cheque (BEC)</li>
+          <li>Letter of Credit (LC) </li>
+          <li>Standby Letter of Credit (SBLC) </li>
+        </ul>
+        In a nutshell we deal in every aspect of financial trading, Bank
+        instrument trading etc. as consultant.
         <h3>Travels and Tour</h3>
         <div className="img">
           <img src={img1} width="50%" alt="null" />
